@@ -35,8 +35,8 @@ const Home = () => {
               that have significantly contributed to the success of the organizations I’ve been a part of.
             </p>
             <div className="hire-me">
-                <a href="/contacts" className="btn-hire-me">Hire Me</a>
-                <a href="/projects" className="btn-hire-me">See Projects</a>
+              <Link to="/contacts" className="btn-hire-me">Hire Me</Link>
+              <Link to="/projects" className="btn-hire-me">See Projects</Link>
             </div>
             {/* <div className="cta-buttons">
               <a href="resume.pdf" className="btn-download-cv" download>Download CV</a>
