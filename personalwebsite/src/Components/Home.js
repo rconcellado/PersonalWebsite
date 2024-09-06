@@ -50,7 +50,7 @@ const Home = () => {
             </div> */}
           </div>
           <div className="image-content">
-            <img src="profilepicture.jpg" alt="Profile Picture" />
+            <img src="profile.jpg" alt="Profile" />
           </div>
         </div>
       </section>
