@@ -29,6 +29,7 @@ const ProjectsPage = () => {
     return (
         <div className="projects-page">
             <section className="projects-section">
+                <h1>List of Freelance Projects</h1> {/* New Title Added Here */}
                 <h2>Projects</h2>
                 <div className="projects-grid">
                     {projects.map((project, index) => (
