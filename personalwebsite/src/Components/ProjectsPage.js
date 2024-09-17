@@ -20,7 +20,7 @@ const projects = [
                       and billing. Built with ASP.NET Core and React.js, it offers integration with secure APIs 
                       and is deployed on Microsoft Azure for high performance and reliability. The system helps clinics 
                       manage their operations effectively, improving patient experiences and operational efficiency.`,
-        imageUrl: '/ClinicHomePage.png', // Replace with the correct image URL for the clinic project
+        imageUrl: '/StLouisHomePage.png', // Replace with the correct image URL for the clinic project
         link: 'https://stlouisclinic.azurewebsites.net/' // Replace with the correct link for the clinic project
     }
 ];
