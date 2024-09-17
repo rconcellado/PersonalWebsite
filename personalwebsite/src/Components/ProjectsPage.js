@@ -12,6 +12,16 @@ const projects = [
                       The system provides a seamless user experience, streamlining operations across multiple branches.`,
         imageUrl: '/EdsanHomePage.png', // Corrected URL
         link: 'https://edsanbooking-fja6hqgnfthxayge.canadacentral-01.azurewebsites.net/' // Link to the external site
+    },
+    {
+        title: 'St. Louis Clinic Management System',
+        description: `The St. Louis Clinic Management System is a web application designed to streamline 
+                      clinic operations, including patient records management, appointments scheduling, 
+                      and billing. Built with ASP.NET Core and React.js, it offers integration with secure APIs 
+                      and is deployed on Microsoft Azure for high performance and reliability. The system helps clinics 
+                      manage their operations effectively, improving patient experiences and operational efficiency.`,
+        imageUrl: '/ClinicHomePage.png', // Replace with the correct image URL for the clinic project
+        link: 'https://stlouisclinic.azurewebsites.net/' // Replace with the correct link for the clinic project
     }
 ];
 
