@@ -55,9 +55,9 @@ const ContactPage = () => {
                 </div>
             </section>
 
-            <footer>
-                <Link to="/" className="back-to-home">Back to Home</Link> {/* Use Link to navigate back to Home */}
-            </footer>
+            {/* <footer> */}
+                {/* <Link to="/" className="back-to-home">Back to Home</Link> Use Link to navigate back to Home */}
+            {/* </footer> */}
         </div>
     );
 };

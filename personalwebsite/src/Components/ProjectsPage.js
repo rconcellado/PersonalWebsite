@@ -30,7 +30,7 @@ const ProjectsPage = () => {
         <div className="projects-page">
             <section className="projects-section">
                 <h1>List of Freelance Projects</h1> {/* New Title Added Here */}
-                <h2>Projects</h2>
+                {/* <h2>Projects</h2> */}
                 <div className="projects-grid">
                     {projects.map((project, index) => (
                         <div className="project-card" key={index}>
@@ -44,9 +44,9 @@ const ProjectsPage = () => {
                     ))}
                 </div>
             </section>
-            <footer>
-                <Link to="/" className="back-to-home">Back to Home</Link> {/* Use Link to navigate back to Home */}
-            </footer>
+            {/* <footer> */}
+                {/* <Link to="/" className="back-to-home">Back to Home</Link> Use Link to navigate back to Home */}
+            {/* </footer> */}
         </div>
     );
 };
