@@ -6,7 +6,7 @@ import ContactPage from './ContactPage'; // Import the ContactPage component
 import AboutPage from './AboutPage'; // Import the AboutPage component
 
 const Home = () => {
-  const [activeSection, setActiveSection] = useState(null); // State to manage the active section
+  const [activeSection, setActiveSection] = useState('about'); // Default to 'about'
 
   const handleNavClick = (section) => {
     setActiveSection(section); // Set the active section (Skills, Projects, Contact, About)
@@ -23,6 +23,7 @@ const Home = () => {
           <h1>Reynaldo Concellado</h1>
           <h2>Full Stack Software Developer | System Optimization, Database Integration</h2>
           <p>rey.concellado@gmail.com - <a href="#contact">Contact Info</a></p>
+          <p>153 connections</p>
         </div>
       </section>
 
@@ -32,7 +33,7 @@ const Home = () => {
           <nav>
             <ul className="nav-links">
               {/* <li><a href="#home" onClick={() => handleNavClick(null)}>Home</a></li> */}
-              <li><a href="#about" onClick={() => handleNavClick('about')}>About</a></li> {/* Add About */}
+              <li><a href="#about" onClick={() => handleNavClick('about')}>About</a></li> {/* About link */}
               <li><a href="#skills" onClick={() => handleNavClick('skills')}>Skills</a></li>
               <li><a href="#projects" onClick={() => handleNavClick('projects')}>Projects</a></li>
               <li><a href="#contact" onClick={() => handleNavClick('contact')}>Contact</a></li>
@@ -48,10 +49,10 @@ const Home = () => {
       </section> */}
 
       {/* Conditional Rendering of Sections */}
-      {activeSection === 'about' && <AboutPage />} {/* Render AboutPage if activeSection is 'about' */}
-      {activeSection === 'skills' && <Skills />} {/* Render Skills if activeSection is 'skills' */}
-      {activeSection === 'projects' && <ProjectsPage />} {/* Render ProjectsPage if activeSection is 'projects' */}
-      {activeSection === 'contact' && <ContactPage />} {/* Render ContactPage if activeSection is 'contact' */}
+      {activeSection === 'about' && <AboutPage />} {/* AboutPage will show by default */}
+      {activeSection === 'skills' && <Skills />} 
+      {activeSection === 'projects' && <ProjectsPage />} 
+      {activeSection === 'contact' && <ContactPage />} 
     </div>
   );
 };
