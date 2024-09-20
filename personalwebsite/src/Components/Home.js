@@ -23,7 +23,6 @@ const Home = () => {
           <h1>Reynaldo Concellado</h1>
           <h2>Full Stack Software Developer | System Optimization, Database Integration</h2>
           <p>rey.concellado@gmail.com - <a href="#contact">Contact Info</a></p>
-          <p>153 connections</p>
         </div>
       </section>
 
@@ -41,13 +40,7 @@ const Home = () => {
           </nav>
         </div>
       </header>
-
-      {/* Call-to-Action Buttons */}
-      {/* <section className="cta-section">
-        <a href="#work" className="btn-hire-me">Open to Work</a>
-        <a href="#projects" className="btn-hire-me secondary">See Projects</a>
-      </section> */}
-
+      
       {/* Conditional Rendering of Sections */}
       {activeSection === 'about' && <AboutPage />} {/* AboutPage will show by default */}
       {activeSection === 'skills' && <Skills />} 
