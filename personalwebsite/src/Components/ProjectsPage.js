@@ -3,16 +3,16 @@ import './ProjectsPage.css';
 import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const projects = [
-    // {
-    //     title: 'Edsan Transient House and Resort Management System',
-    //     description: `The Edsan Transient House and Resort Management System is a web application 
-    //                   built with ASP.NET Core MVC to manage guest bookings, room reservations, and 
-    //                   payments for a resort and transient house. It features secure API integration,
-    //                   online payment gateways, and is deployed on Microsoft Azure for scalability and performance.
-    //                   The system provides a seamless user experience, streamlining operations across multiple branches.`,
-    //     imageUrl: '/EdsanHomePage.png', // Corrected URL
-    //     link: 'https://edsanbooking-fja6hqgnfthxayge.canadacentral-01.azurewebsites.net/' // Link to the external site
-    // },
+    {
+        title: 'Edsan Transient House and Resort Management System',
+        description: `The Edsan Transient House and Resort Management System is a web application 
+                      built with ASP.NET Core MVC to manage guest bookings, room reservations, and 
+                      payments for a resort and transient house. It features secure API integration,
+                      online payment gateways, and is deployed on Microsoft Azure for scalability and performance.
+                      The system provides a seamless user experience, streamlining operations across multiple branches.`,
+        imageUrl: '/EdsanHomePage.png', // Corrected URL
+        link: 'https://edsanbooking20240926082912.azurewebsites.net/' // Link to the external site
+    },
     {
         title: 'St. Louis Clinic Management System',
         description: `The St. Louis Clinic Management System is a web application designed to streamline 
