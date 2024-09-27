@@ -11,7 +11,7 @@ const projects = [
                       online payment gateways, and is deployed on Microsoft Azure for scalability and performance.
                       The system provides a seamless user experience, streamlining operations across multiple branches.`,
         imageUrl: '/EdsanHomePage.png', // Corrected URL
-        link: 'https://edsanbooking20240926082912.azurewebsites.net/' // Link to the external site
+        link: 'https://edsanbooking20240927111936.azurewebsites.net/' // Link to the external site
     },
     {
         title: 'St. Louis Clinic Management System',
