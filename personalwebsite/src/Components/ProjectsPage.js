@@ -24,14 +24,13 @@ const projects = [
         link: 'https://brave-mud-0f3647a0f.5.azurestaticapps.net/' // Replace with the correct link for the clinic project
     },
     {
-        title: 'AdventureWorks Sales Analysis Report',
-        description: `This interactive Power BI report analyzes the total sales by product category for the AdventureWorks 
-                      company. It provides visual insights into product sales performance across categories such as Bikes, 
-                      Components, Clothing, and Accessories. The report is embedded from Power BI Service, allowing users 
-                      to interact with the data directly on the website.`,
-        imageUrl: '/AdventureWorksReport.png', // Replace with a screenshot of the report
-        link: 'https://app.powerbi.com/reportEmbed?reportId=ecb72534-0a0b-4d98-95ec-dd79ff208b4b&autoAuth=true&ctid=9777383c-8e2f-4d90-9706-157508f858b0' // Power BI embed link
-    }
+        title: 'AdventureWorks Sales Analysis PDF',
+        description: `This is a downloadable PDF report built using Power BI, which provides an in-depth analysis of sales data 
+                      categorized by product type for the AdventureWorks company. The report includes visualizations created in 
+                      Power BI, an entity relationship diagram (ERD), and SQL validation queries.`,
+        imageUrl: '/AdventureWorksPDF.png', // Replace with a suitable image for PDF
+        link: '/Product Sales by Category.pdf' // Add the correct path to your PDF file
+    }    
 ];
 
 const ProjectsPage = () => {
