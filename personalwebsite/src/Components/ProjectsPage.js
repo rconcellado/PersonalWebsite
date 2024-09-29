@@ -24,13 +24,21 @@ const projects = [
         link: 'https://brave-mud-0f3647a0f.5.azurestaticapps.net/' // Replace with the correct link for the clinic project
     },
     {
-        title: 'AdventureWorks Sales Analysis PDF',
+        title: 'AdventureWorks Product Sales by Category',
         description: `This is a downloadable PDF report built using Power BI, which provides an in-depth analysis of sales data 
                       categorized by product type for the AdventureWorks company. The report includes visualizations created in 
                       Power BI, an entity relationship diagram (ERD), and SQL validation queries.`,
         imageUrl: '/AdventureWorksPDF.png', // Replace with a suitable image for PDF
         link: '/Product Sales by Category.pdf' // Add the correct path to your PDF file
-    }    
+    },
+    {
+        title: 'AdventureWorks Inventory Management Report',
+        description: `This Inventory Management Report was created using Power BI to track inventory levels across product categories 
+                      and forecast potential stock shortages. The report visualizes inventory depletion trends and helps with inventory 
+                      planning by providing a clear breakdown of stock levels per product subcategory.`,
+        imageUrl: '/InventoryManagementReport.png', // Replace with a suitable image for the report
+        link: '/Inventory Management Report.pdf' // Add the correct path to your PDF file
+    }
 ];
 
 const ProjectsPage = () => {
